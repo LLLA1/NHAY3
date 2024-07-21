@@ -14,7 +14,7 @@ from youtube_search import YoutubeSearch
 from ZeMusic import app
 from ZeMusic.plugins.play.filters import command
 
-channel = "KHAYAL70"
+channel = "eo_u7"
 def remove_if_exists(path):
     if os.path.exists(path):
         os.remove(path)
