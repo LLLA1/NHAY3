@@ -22,7 +22,7 @@ async def devid(client: Client, message: Message):
        
     await message.reply_photo(
         photo="downloads/developer.jpg",
-        caption=f"""<b>• Dev Bot ↦ سعود\n━━━━━━━━━━━━\n• Dev ↦  {name}\n• Bio ↦ {bio}""",
+        caption=f"""<b>• Dev Bot ↦ لارين\n━━━━━━━━━━━━\n• Dev ↦  {name}\n• Bio ↦ {bio}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
