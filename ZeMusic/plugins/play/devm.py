@@ -22,11 +22,11 @@ async def devid(client: Client, message: Message):
        
     await message.reply_photo(
         photo="downloads/developer.jpg",
-        caption=f"""<b>• Dev Bot ↦ لارين\n━━━━━━━━━━━━\n• Dev ↦  {name}\n• Bio ↦ {bio}""",
+        caption=f"""<b>• Dev Bot ↦ {BOT_NAME}\n━━━━━━━━━━━━\n• Dev ↦  {name}\n• Bio ↦ {bio}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(name, url=f"tg://user?id={uid}"),
+                    InlineKeyboardButton(name, url=f"https://t.me/{usrnam}"),
                 ],
             ]
         ),
