@@ -18,7 +18,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                    InlineKeyboardButton(
-                        "دار القصيـد", url="https://t.me/eer_5o"),
+                        "ملصقات مميزه", url="https://t.me/eer_5o"),
                 ],
             ]
         ),
