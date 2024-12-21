@@ -18,7 +18,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                    InlineKeyboardButton(
-                        "ملصقات مميزه", url="https://t.me/eer_5o"),
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK),
                 ],
             ]
         ),
