@@ -59,7 +59,7 @@
         "value": "https://t.me/YMMYN",
         "required": true
       },
-      "STORE_LINK": {
+      "CHANNEL_ASHTRAK": {
         "description": "رابط قناة الاشتراك.",
         "value": "https://t.me/YMMY8",
         "required": true
