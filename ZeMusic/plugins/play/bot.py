@@ -30,6 +30,6 @@ async def BotMusic(client: Client, message: Message):
 
 @app.on_message(filters.regex(r"^(بوت الحذف|رابط الحذف)$"))
 async def DeletMusic(client: Client, message: Message):
-    await message.reply_text(f"""<b>↯ بوت الحذف : ›</b> ( @DTeLebot )\n\n<b>↯ رابط الحذف : ›</b> ( <a href="https://my.telegram.org/auth?to=delete">اضغط هنا</a> )""")
+    await message.reply_text(f"""<b>↯ بوت الحذف : ›</b> ( @LDDDLBOT )\n\n""")
 
 
