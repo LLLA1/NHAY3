@@ -41,17 +41,32 @@
       },
       "CHANNEL_NAME": {
         "description": "اسم قناتك.",
-        "value": "• 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧",
+        "value": "السورس",
         "required": true
       },
       "CHANNEL_LINK": {
         "description": "رابط قناتك.",
-        "value": "https://t.me/eer_5o",
+        "value": "https://t.me/K55DD",
+        "required": true
+      },
+      "STORE_NAME": {
+        "description": "اسم متجرك.",
+        "value": "المتجر",
+        "required": true
+      },
+      "STORE_LINK": {
+        "description": "رابط المتجر.",
+        "value": "https://t.me/YMMYN",
+        "required": true
+      },
+      "STORE_LINK": {
+        "description": "رابط قناة الاشتراك.",
+        "value": "https://t.me/YMMY8",
         "required": true
       },
       "OWNER_ID": {
         "description": "اضف ايدي المستخدم الذي ترغب في إضافته كـ مطور البوت او كما هوا",
-        "value": "7023939505",
+        "value": "5901732027",
         "required": true
       },
       "STRING_SESSION": {
