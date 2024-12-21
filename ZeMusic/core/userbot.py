@@ -52,7 +52,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("K55DD")
-                await self.one.join_chat("eer_5o")
+                await self.one.join_chat("YMMY8")
                 await self.one.join_chat("KHAYAL70")
             except:
                 pass
@@ -74,12 +74,12 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("K55DD")
-                await self.two.join_chat("eer_5o")
+                await self.two.join_chat("YMMY8")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس الملك 』")
+                await self.two.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس لارين 』")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -95,12 +95,12 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("K55DD")
-                await self.three.join_chat("eer_5o")
+                await self.three.join_chat("YMMY8")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس الملك 』")
+                await self.three.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس لارين 』")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -116,12 +116,12 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("K55DD")
-                await self.four.join_chat("eer_5o")
+                await self.four.join_chat("YMMY8")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس الملك 』")
+                await self.four.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس لارين 』")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -137,12 +137,12 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("K55DD")
-                await self.five.join_chat("eer_5o")
+                await self.five.join_chat("YMMY8")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس الملك 』")
+                await self.five.send_message(config.LOGGER_ID, "『 تم تشغيل البوت على سورس لارين 』")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
