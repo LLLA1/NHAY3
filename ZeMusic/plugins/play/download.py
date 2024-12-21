@@ -76,7 +76,7 @@ async def song_downloader(client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="متجر لول", url=f"https://t.me/YMMYN"),
+                        InlineKeyboardButton(text=config.STORE_NAME, url=config.STORE_LINK),
                     ],
                 ]
             ),
