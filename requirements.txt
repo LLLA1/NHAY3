@@ -25,4 +25,4 @@ youtube-search
 youtube-search-python
 telegraph
 pytz
-httpx
+httpx[http2]
