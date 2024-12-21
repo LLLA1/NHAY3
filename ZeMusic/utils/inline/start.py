@@ -14,10 +14,10 @@ def start_panel(_):
         ],
         [InlineKeyboardButton(text="الأوامر", callback_data="zzzback")],
         [
-            InlineKeyboardButton(text="𝐃𝐞𝐯", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=config.STORE_NAME, url=config.STORE_LINK),
             InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)
         ],
-        [InlineKeyboardButton(text="𝐒𝐨𝐮𝐫𝐜𝐞 𝐥𝐨𝐥 🧚‍♀", url=f"https://t.me/K55DD"),
+        [InlineKeyboardButton(text="𝐃𝐞𝐯", user_id=config.OWNER_ID),
 ],
 
     ]
@@ -34,10 +34,10 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text="الأوامر", callback_data="zzzback")],
         [
-            InlineKeyboardButton(text="𝐃𝐞𝐯", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=config.STORE_NAME, url=config.STORE_LINK),
             InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)
         ],
-        [InlineKeyboardButton(text="𝐒𝐨𝐮𝐫𝐜𝐞 𝐥𝐨𝐥 🧚‍♀", url=f"https://t.me/K55DD"),
+        [InlineKeyboardButton(text="𝐃𝐞𝐯", user_id=config.OWNER_ID),
  ],
     ]
     return buttons
