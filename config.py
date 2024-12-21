@@ -14,7 +14,8 @@ API_HASH = getenv("API_HASH","986cb4ba434870a62fe96da3b5f6d411")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME","")
 
-Muntazer = getenv("muntazer", "eo_u7")
+Muntazer = getenv("muntazer", "CHANNEL_ASHTRAK")
+CHANNEL_ASHTRAK = getenv("CHANNEL_ASHTRAK", "K55DD")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
